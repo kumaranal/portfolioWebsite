@@ -26,7 +26,7 @@ function FeaturedCourses() {
             Professional Experience
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-            Companies I've Been a Part Of
+            Companies I have Been a Part Of
           </p>
         </div>
       </div>

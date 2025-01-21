@@ -8,7 +8,7 @@ function page() {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
       <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
-        Companies I've Been a Part Of
+        Companies I have Been a Part Of
       </h1>
       <div className="flex flex-wrap justify-center">
         {courseData.courses.map((course, index) => (

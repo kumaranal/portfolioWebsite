@@ -120,7 +120,7 @@ function UpcomingWebinars() {
             skill / Technology
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-            Skill / Technology ,i've experience of
+            Skill / Technology ,i have experience of
           </p>
         </div>
 
