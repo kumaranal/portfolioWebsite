@@ -11,9 +11,11 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    quote: string;
-    name: string;
+    id: number;
     title: string;
+    description: string;
+    client: string;
+    source: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -92,23 +94,26 @@ export const InfiniteMovingCards = ({
               background:
                 "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
             }}
-            key={item.name}
+            key={item.id}
           >
             <blockquote>
               <div
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
-                {item.quote}
-              </span>
+              <p className=" relative text-lg leading-[1.6]  font-normal text-cyan-400 ">
+                {item.title}
+              </p>
+              <p className="  z-20 text-sm leading-[1.6] text-gray-400 font-normal mt-5">
+                {item.description}
+              </p>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.name}
+                  <span className=" text-sm leading-[1.6] font-normal">
+                    {item.client}
                   </span>
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
+                  <span className=" text-sm leading-[1.6] font-normal">
+                    {item.source}
                   </span>
                 </span>
               </div>

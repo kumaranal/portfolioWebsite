@@ -1,0 +1,96 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "projectName": "Incentive Management System",
+        "source": "Tata Consultancy Services",
+        "client": "FIAT AUTOMOBILE",
+        "description": "An application using which FIAT AUTOMOBILE's sales team managing there offers discount & made strategies of sales & discounts",
+        "technologies": ["Angular","Node","Java","SpringBoot","Git","Jenkins","AWS","Swagger"],
+        "role": "frontend Engineer" ,
+        "responsibility": "making webpages for the application",
+        "githubLink":"",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg" 
+      },
+      {
+        "id": 2,
+        "projectName": "Optical Fiber Management System",
+        "source": "Tata Consultancy Services",
+        "client": "COMCAST CORPORATION",
+        "description": "An application using which COMCAST CORPORATION is managing & maintaining (installation, health check etc.) of there optical fiber cable network",
+        "technologies": ["Angular","Node","Javascript","Express.js","Git","Jenkins","AWS","Swagger","Sequelize","Jest","MongoDB"],
+        "role": "Full-stack Engineer" ,
+        "responsibility": "making DB schema & Apis for the application ",
+        "githubLink":"",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg" 
+      },
+      {
+        "id": 3,
+        "projectName": "A Golf Course Management System",
+        "source": "Xotiv Technologies",
+        "client": "IN HOUSE PRODUCT",
+        "description": "An application using which golf courses are managing & maintains there golf course area (pond, grass,trees,flag etc.)",
+        "technologies": ["Angular","Node","Javascript","Express.js","Git","Jenkins","AWS","Swagger","Sequelize","Jest","GraphQL"],
+        "role": "Full-stack Engineer" ,
+        "responsibility": "making backend DB schema & Apis for the application, also making web pages for the applications ",
+        "githubLink":"",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg" 
+      },
+      {
+        "id": 4,
+        "projectName": "A HealthCare App for the EKG Review",
+        "source": "Xotiv Technologies",
+        "client": "READ MY RHYTHM",
+        "description": "An application using which user (patients of hospital opd) are sharing there EKG using the app ,& a group institutional doctor overview that EKG & sent back the review through application only",
+        "technologies": ["Javascript","Next.js","Supabase","Vercel","Stripe","Truevault"],
+        "role": "Full-stack Engineer" ,
+        "responsibility": "making backend DB schema & Apis for the application,integrating payment gateway,having work with hipaa compliance, also making web pages for the applications ",
+        "githubLink":"",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg" 
+      },
+      {
+        "id": 5,
+        "projectName": "A Real-estate Rent Management System",
+        "source": "Xotiv Technologies",
+        "client": "Worthwhile",
+        "description": "An application using which user (patients of hospital opd) are sharing there EKG using the app ,& a group institutional doctor overview that EKG & sent back the review through application only",
+        "technologies": ["Javascript","Next.js","Supabase","Vercel","Entrata","Firebase Push Notification","Sendgrid","Docker"],
+        "role": "Full-stack Engineer" ,
+        "responsibility": "making backend DB schema & Apis for the application, also making web pages for the applications ",
+        "githubLink":"",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg" 
+      },
+      {
+        "id": 6,
+        "projectName": "A Sports Education-Tech Management System",
+        "source": "Xotiv Technologies",
+        "client": "An individual Sports Institution From the USA",
+        "description": "An application using which user (patients of hospital opd) are sharing there EKG using the app ,& a group institutional doctor overview that EKG & sent back the review through application only",
+        "technologies": ["Javascript","Next.js","Supabase","Vercel","Stripe","Firebase Push Notification","Sendgrid","Docker","Prisma"],
+        "role": "Full-stack Engineer" ,
+        "responsibility": "making backend DB schema & Apis for the application, also making web pages for the applications ",
+        "githubLink":"",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg" 
+      },
+      {
+        "id": 7,
+        "projectName": "A Chat Application",
+        "source": "Own",
+        "client": "Own app",
+        "description": "An chat application ",
+        "technologies": ["Javascript","Node","Express.js","React.js","Socket.io"],
+        "role": "Full-stack Engineer" ,
+        "responsibility": "making this app zero to hundred",
+        "githubLink":"",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg" 
+      }
+    ]
+  }
+  

@@ -7,8 +7,11 @@ export const StickyScroll = ({
   content,
 }: {
   content: {
-    title: string;
-    description: string;
+    id: number;
+    institutionName: string;
+    grade: string;
+    score: number;
+    year: number;
   }[];
 }) => {
   const [activeCard, setActiveCard] = React.useState(0);
@@ -49,7 +52,10 @@ export const StickyScroll = ({
       <div className="div relative flex items-start px-4">
         <div className="max-w-2xl">
           {content.map((item, index) => (
-            <div key={item.title + index} className="my-20">
+            <div
+              key={item.id}
+              className="my-20 bg-slate-800 p-10 rounded-lg shadow-xl"
+            >
               <motion.h2
                 initial={{
                   opacity: 0,
@@ -59,7 +65,7 @@ export const StickyScroll = ({
                 }}
                 className="text-2xl font-bold text-slate-100"
               >
-                {item.title}
+                Institution Name: {item.institutionName}
               </motion.h2>
               <motion.p
                 initial={{
@@ -70,7 +76,29 @@ export const StickyScroll = ({
                 }}
                 className="text-kg text-slate-300 max-w-sm mt-10"
               >
-                {item.description}
+                Grade: {item.grade}
+              </motion.p>
+              <motion.p
+                initial={{
+                  opacity: 0,
+                }}
+                animate={{
+                  opacity: activeCard === index ? 1 : 0.3,
+                }}
+                className="text-kg text-slate-300 max-w-sm mt-2"
+              >
+                Score: {item.score}
+              </motion.p>
+              <motion.p
+                initial={{
+                  opacity: 0,
+                }}
+                animate={{
+                  opacity: activeCard === index ? 1 : 0.3,
+                }}
+                className="text-kg text-slate-300 max-w-sm mt-2"
+              >
+                Year of completion: {item.year}
               </motion.p>
             </div>
           ))}
