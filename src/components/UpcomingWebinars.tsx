@@ -26,6 +26,13 @@ function UpcomingWebinars() {
       isFeatured: true,
     },
     {
+      title: "Nest.JS",
+      description:
+        "Learn how to promote your music effectively in the digital age.",
+      slug: "digital-music-marketing",
+      isFeatured: true,
+    },
+    {
       title: "Next.Js",
       description:
         "Advanced techniques to master your musical instrument of choice.",
@@ -39,6 +46,13 @@ function UpcomingWebinars() {
       slug: "music-production-essentials",
       isFeatured: true,
     },
+    {
+      title: "React",
+      description:
+        "Learn how to promote your music effectively in the digital age.",
+      slug: "digital-music-marketing",
+      isFeatured: true,
+    },
     // Added two more webinars
     {
       title: "SQL",
@@ -48,7 +62,7 @@ function UpcomingWebinars() {
       isFeatured: true,
     },
     {
-      title: "NoSQL",
+      title: "NoSQL / MongoDB",
       description:
         "Learn how to promote your music effectively in the digital age.",
       slug: "digital-music-marketing",
@@ -112,20 +126,6 @@ function UpcomingWebinars() {
     },
     {
       title: "HTML & CSS",
-      description:
-        "Learn how to promote your music effectively in the digital age.",
-      slug: "digital-music-marketing",
-      isFeatured: true,
-    },
-    {
-      title: "NEST.JS",
-      description:
-        "Learn how to promote your music effectively in the digital age.",
-      slug: "digital-music-marketing",
-      isFeatured: true,
-    },
-    {
-      title: "REACT",
       description:
         "Learn how to promote your music effectively in the digital age.",
       slug: "digital-music-marketing",
