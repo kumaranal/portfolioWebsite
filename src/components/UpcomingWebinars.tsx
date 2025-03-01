@@ -110,6 +110,27 @@ function UpcomingWebinars() {
       slug: "digital-music-marketing",
       isFeatured: true,
     },
+    {
+      title: "HTML & CSS",
+      description:
+        "Learn how to promote your music effectively in the digital age.",
+      slug: "digital-music-marketing",
+      isFeatured: true,
+    },
+    {
+      title: "NEST.JS",
+      description:
+        "Learn how to promote your music effectively in the digital age.",
+      slug: "digital-music-marketing",
+      isFeatured: true,
+    },
+    {
+      title: "REACT",
+      description:
+        "Learn how to promote your music effectively in the digital age.",
+      slug: "digital-music-marketing",
+      isFeatured: true,
+    },
   ];
 
   return (
