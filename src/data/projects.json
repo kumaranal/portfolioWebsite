@@ -1,96 +1,95 @@
 {
-    "projects": [
-      {
-        "id": 1,
-        "projectName": "Incentive Management System",
-        "source": "Tata Consultancy Services",
-        "client": "FIAT AUTOMOBILE",
-        "description": "An application using which FIAT AUTOMOBILE's sales team managing there offers discount & made strategies of sales & discounts",
-        "technologies": ["Angular","Node","Java","SpringBoot","Git","Jenkins","AWS","Swagger"],
-        "role": "frontend Engineer" ,
-        "responsibility": "making webpages for the application",
-        "githubLink":"",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
-      },
-      {
-        "id": 2,
-        "projectName": "Optical Fiber Management System",
-        "source": "Tata Consultancy Services",
-        "client": "COMCAST CORPORATION",
-        "description": "An application using which COMCAST CORPORATION is managing & maintaining (installation, health check etc.) of there optical fiber cable network",
-        "technologies": ["Angular","Node","Javascript","Express.js","Git","Jenkins","AWS","Swagger","Sequelize","Jest","MongoDB"],
-        "role": "Full-stack Engineer" ,
-        "responsibility": "making DB schema & Apis for the application ",
-        "githubLink":"",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
-      },
-      {
-        "id": 3,
-        "projectName": "A Golf Course Management System",
-        "source": "Xotiv Technologies",
-        "client": "IN HOUSE PRODUCT",
-        "description": "An application using which golf courses are managing & maintains there golf course area (pond, grass,trees,flag etc.)",
-        "technologies": ["Angular","Node","Javascript","Express.js","Git","Jenkins","AWS","Swagger","Sequelize","Jest","GraphQL"],
-        "role": "Full-stack Engineer" ,
-        "responsibility": "making backend DB schema & Apis for the application, also making web pages for the applications ",
-        "githubLink":"",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
-      },
-      {
-        "id": 4,
-        "projectName": "A HealthCare App for the EKG Review",
-        "source": "Xotiv Technologies",
-        "client": "READ MY RHYTHM",
-        "description": "An application using which user (patients of hospital opd) are sharing there EKG using the app ,& a group institutional doctor overview that EKG & sent back the review through application only",
-        "technologies": ["Javascript","Next.js","Supabase","Vercel","Stripe","Truevault"],
-        "role": "Full-stack Engineer" ,
-        "responsibility": "making backend DB schema & Apis for the application,integrating payment gateway,having work with hipaa compliance, also making web pages for the applications ",
-        "githubLink":"",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
-      },
-      {
-        "id": 5,
-        "projectName": "A Real-estate Rent Management System",
-        "source": "Xotiv Technologies",
-        "client": "Worthwhile",
-        "description": "An application using which user (patients of hospital opd) are sharing there EKG using the app ,& a group institutional doctor overview that EKG & sent back the review through application only",
-        "technologies": ["Javascript","Next.js","Supabase","Vercel","Entrata","Firebase Push Notification","Sendgrid","Docker"],
-        "role": "Full-stack Engineer" ,
-        "responsibility": "making backend DB schema & Apis for the application, also making web pages for the applications ",
-        "githubLink":"",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
-      },
-      {
-        "id": 6,
-        "projectName": "A Sports Education-Tech Management System",
-        "source": "Xotiv Technologies",
-        "client": "An individual Sports Institution From the USA",
-        "description": "An application using which user (patients of hospital opd) are sharing there EKG using the app ,& a group institutional doctor overview that EKG & sent back the review through application only",
-        "technologies": ["Javascript","Next.js","Supabase","Vercel","Stripe","Firebase Push Notification","Sendgrid","Docker","Prisma"],
-        "role": "Full-stack Engineer" ,
-        "responsibility": "making backend DB schema & Apis for the application, also making web pages for the applications ",
-        "githubLink":"",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
-      },
-      {
-        "id": 7,
-        "projectName": "A Chat Application",
-        "source": "Own",
-        "client": "Own app",
-        "description": "An chat application ",
-        "technologies": ["Javascript","Node","Express.js","React.js","Socket.io"],
-        "role": "Full-stack Engineer" ,
-        "responsibility": "making this app zero to hundred",
-        "githubLink":"",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
-      }
-    ]
-  }
-  
+  "projects": [
+    {
+      "id": 1,
+      "projectName": "Incentive Management System",
+      "source": "Tata Consultancy Services",
+      "client": "FIAT AUTOMOBILE",
+      "description": "A comprehensive Incentive Management System developed for FIAT AUTOMOBILE, enabling the sales team to efficiently manage and optimize incentive strategies and discount offers.",
+      "technologies": ["Angular", "Node", "Java", "SpringBoot", "Git", "Jenkins", "AWS", "Swagger"],
+      "role": "Frontend Engineer",
+      "responsibility": "Designed and developed responsive web pages to ensure a seamless user experience across the application.",
+      "githubLink": "",
+      "isFeatured": true,
+      "image": "/courses/code.jpg"
+    },
+    {
+      "id": 2,
+      "projectName": "Optical Fiber Management System",
+      "source": "Tata Consultancy Services",
+      "client": "COMCAST CORPORATION",
+      "description": "A robust Optical Fiber Management System tailored for COMCAST CORPORATION, facilitating efficient monitoring, maintenance, and management of their extensive optical fiber network.",
+      "technologies": ["Angular", "Node", "Javascript", "Express.js", "Git", "Jenkins", "AWS", "Swagger", "Sequelize", "Jest", "MongoDB"],
+      "role": "Full-stack Engineer",
+      "responsibility": "Engineered comprehensive backend solutions including database schema design and API development, ensuring high performance and scalability.",
+      "githubLink": "",
+      "isFeatured": true,
+      "image": "/courses/code.jpg"
+    },
+    {
+      "id": 3,
+      "projectName": "A Golf Course Management System",
+      "source": "Xotiv Technologies",
+      "client": "IN HOUSE PRODUCT",
+      "description": "An integrated Golf Course Management System designed to facilitate the efficient management and maintenance of golf course infrastructures, including ponds, turf, trees, and other facilities.",
+      "technologies": ["Angular", "Node", "Javascript", "Express.js", "Git", "Jenkins", "AWS", "Swagger", "Sequelize", "Jest", "GraphQL"],
+      "role": "Full-stack Engineer",
+      "responsibility": "Developed backend database schemas and APIs alongside user-friendly web interfaces to enhance system functionality and user engagement.",
+      "githubLink": "https://turfassistant.com",
+      "isFeatured": true,
+      "image": "/courses/turf.png"
+    },
+    {
+      "id": 4,
+      "projectName": "A HealthCare App for the EKG Review",
+      "source": "Xotiv Technologies",
+      "client": "READ MY RHYTHM",
+      "description": "A HIPAA-compliant healthcare application that enables patients to securely share their EKG data and receive expert reviews from a team of institutional doctors, streamlining remote diagnostics.",
+      "technologies": ["Javascript", "Next.js", "Supabase", "Vercel", "Stripe", "Truevault"],
+      "role": "Full-stack Engineer",
+      "responsibility": "Architected and implemented secure backend database schemas and APIs, integrated payment gateways, ensured HIPAA compliance, and developed a responsive front-end interface.",
+      "githubLink": "https://app1.readmyrhythm.com",
+      "isFeatured": true,
+      "image": "/courses/rmr.png"
+    },
+    {
+      "id": 5,
+      "projectName": "A Real-estate Rent Management System",
+      "source": "Xotiv Technologies",
+      "client": "Worthwhile",
+      "description": "A comprehensive Real-Estate Rent Management System that empowers real estate professionals to track properties and tenants, while streamlining the tenant onboarding process.",
+      "technologies": ["Javascript", "Next.js", "Supabase", "Vercel", "Entrata", "Firebase Push Notification", "Sendgrid", "Docker"],
+      "role": "Full-stack Engineer",
+      "responsibility": "Developed robust backend database schemas and APIs, and crafted responsive web pages to enhance operational efficiency and user engagement.",
+      "githubLink": "https://affco-prod.vercel.app",
+      "isFeatured": true,
+      "image": "/courses/affco.png"
+    },
+    {
+      "id": 6,
+      "projectName": "A Sports Education-Tech Management System",
+      "source": "Xotiv Technologies",
+      "client": "An individual Sports Institution From the USA",
+      "description": "An innovative Sports Education-Tech Management System that enables sports institutions and coaches to effectively manage classes, events, registrations, scorecards, and schedules.",
+      "technologies": ["Javascript", "Next.js", "Supabase", "Vercel", "Stripe", "Firebase Push Notification", "Sendgrid", "Docker", "Prisma"],
+      "role": "Full-stack Engineer",
+      "responsibility": "Engineered secure backend database schemas and APIs, and developed dynamic, responsive web pages to facilitate efficient system operations.",
+      "githubLink": "",
+      "isFeatured": true,
+      "image": "/courses/code.jpg"
+    },
+    {
+      "id": 7,
+      "projectName": "A Chat Application",
+      "source": "Own",
+      "client": "Own app",
+      "description": "A robust, real-time chat application developed to enable seamless and efficient communication using modern web technologies.",
+      "technologies": ["Javascript", "Node", "Express.js", "React.js", "Socket.io"],
+      "role": "Full-stack Engineer",
+      "responsibility": "Led the end-to-end development process, from conceptualization and design to deployment, ensuring optimal functionality and user experience.",
+      "githubLink": "https://github.com/kumaranal/chatApp_FullStack",
+      "isFeatured": true,
+      "image": "/courses/chat.png"
+    }
+  ]
+}

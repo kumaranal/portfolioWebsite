@@ -29,8 +29,51 @@ function page() {
                 className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
               >
                 {course.description}
-                {course.githubLink}
               </CardItem>
+              {/* Technologies (List) */}
+              {course.technologies && course.technologies.length > 0 && (
+                <CardItem translateZ="70" className="mt-4">
+                  <strong className="text-neutral-600 dark:text-white">
+                    Technologies Used:
+                  </strong>
+                  <div className="flex flex-wrap mt-2 gap-2">
+                    {course.technologies.map((tech, i) => (
+                      <span
+                        key={i}
+                        className="bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-white px-3 py-1 text-xs font-semibold rounded-lg"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </CardItem>
+              )}
+
+              {/* Responsibilities */}
+              {course.responsibility && (
+                <CardItem translateZ="70" className="mt-4">
+                  <strong className="text-neutral-600 dark:text-white">
+                    Responsibilities:
+                  </strong>
+                  <p className="text-neutral-500 text-sm dark:text-neutral-300 mt-2">
+                    {course.responsibility}
+                  </p>
+                </CardItem>
+              )}
+
+              {/* ✅ Conditionally render GitHub link */}
+              {course.githubLink && (
+                <CardItem translateZ="70" className="mt-4">
+                  <a
+                    href={course.githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300"
+                  >
+                    🔗 link
+                  </a>
+                </CardItem>
+              )}
               <CardItem translateZ="100" className="w-full mt-4">
                 <Image
                   src={course.image}
